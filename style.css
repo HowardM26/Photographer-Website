@@ -1,15 +1,16 @@
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
   
 
-  header {
+header {
     position: relative;
     left: 0;
     top: 0;
-    width: 1005;
+    width: 100%;
     height: 80px;
 }
 
@@ -17,21 +18,21 @@ header h4{
     position: absolute;
     left: 10%;
     bottom: 1rem;
-    font: 1.6rem;
+    font-size: 1.6rem;
 }
 
 
 /* splash screen */
 
 
-.intro {
+.intro{
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: #161616;
     transition: 1s;
 }
 
@@ -45,7 +46,7 @@ header h4{
 }
 
 .logo{
-    position: absolute;
+    position: relative;
     display: inline-block;
     bottom: -20px;
     opacity: 0;
