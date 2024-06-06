@@ -1,0 +1,16 @@
+html, body{
+    height: 100%;
+    margin: 0; /*remove default margins*/
+}
+
+body{
+    background: url(https://media.istockphoto.com/id/1195901607/vector/waiter-hand-holding-cloche-serving-plate-doodle-illustration.jpg?s=612x612&w=0&k=20&c=GgfRJWZOj0hkL6kKM1s6hWk9LcalxehzLpJyU85TMtI=);
+    background-size: cover;
+   
+}
+
+h1, p{
+    text-align: center;
+}
+
+
